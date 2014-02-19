@@ -1,0 +1,115 @@
+.reveal.ng-enter {
+  -webkit-transition:1s linear all;
+  -moz-transition:1s linear all;
+  -o-transition:1s linear all;
+  transition:1s linear all;
+
+  opacity:0;
+}
+.reveal.ng-enter.ng-enter-active {
+  opacity:1;
+}
+
+.nav-list {
+  padding: 0;
+}
+
+.nav-list li {
+  margin:0!important;
+  padding:2px 15px;
+  overflow:hidden;
+  line-height:1.1em;
+}
+
+.slide-reveal.ng-enter {
+  -webkit-transition:0.5s linear all;
+  -moz-transition:0.5s linear all;
+  -o-transition:0.5s linear all;
+  transition:0.5s linear all;
+
+  opacity:0.5;
+  position:relative;
+  opacity:0;
+  top:10px;
+}
+.slide-reveal.ng-enter.ng-enter-active {
+  top:0;
+  opacity:1;
+}
+
+.foldout.ng-enter,
+.foldout.ng-move,
+.foldout.ng-hide-add,
+.foldout.ng-hide-remove {
+  -webkit-transition:0.3s cubic-bezier(0.250, 0.460, 0.450, 0.940) all;
+  -moz-transition:0.3s cubic-bezier(0.250, 0.460, 0.450, 0.940) all;
+  -o-transition:0.3s cubic-bezier(0.250, 0.460, 0.450, 0.940) all;
+  transition:0.3s cubic-bezier(0.250, 0.460, 0.450, 0.940) all;
+}
+
+.foldout.ng-hide-remove,
+.foldout.ng-hide-add.ng-hide-active,
+.foldout.ng-enter,
+.foldout.ng-move {
+  opacity:0;
+}
+
+.foldout.ng-move.ng-move-active,
+.foldout.ng-hide-remove.ng-hide-remove-active,
+.foldout.ng-hide-add,
+.foldout.ng-enter.ng-enter-active {
+  opacity:1;
+}
+
+
+.headerText {
+    color: rgb(97, 127, 16);
+    //position: absolute;
+    font-family: verdana;
+    font-size: 90%;
+    top: 8px;
+}
+
+#content {
+    background-color: rgb(229, 238, 204);
+    //position: absolute;
+    height: auto;
+    top: 500px;
+    bottom: 20px;
+    width: 100%;
+    border-top: 1px solid rgb(195, 195, 195);
+    min-width: 903px;
+    min-height: 400px;
+}
+
+#sourcecode {
+    //position: absolute;
+    height: auto;
+    left: 10px;
+    top: 495px;
+    bottom: 40px;
+    width: 48%;
+}
+
+#textareaCode {
+    //position: absolute;
+    height: 99%;
+    width: 99%;
+    top: 630px;
+    bottom: 10px;
+    border: 1px solid rgb(211, 211, 211);
+    resize: none;
+    min-width: 400px;
+    min-height: 350px;
+}
+#result {
+   //position: absolute;
+    height: auto;
+    left: 510px;
+    top: 495px;
+    bottom: 40px;
+    width: 48%;
+}
+
+
+
